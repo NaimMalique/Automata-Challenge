@@ -1,5 +1,4 @@
 # Automata-Challenge
-This code regarding my class challenge. It easy to understand
 
 This is condition:
  Air- Conditioner switch on if the present of human heat.

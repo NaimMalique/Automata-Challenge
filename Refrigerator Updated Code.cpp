@@ -29,7 +29,7 @@ main ()
     
     //sleep(2);
     cout << "\nHot temp !, set Temp within 16 degree celsius?\nYES or NO: " ;
-    cin>>ans2;
+    cin >> ans2;
     
     if(ans2== accept)
         cout<<"CONTINUE TO OPERATE" << endl;
@@ -38,13 +38,13 @@ main ()
         cout<<"CONTINUE TO OPERATE" << endl;
     
     else
-	{
+    {
         cout<<"Invalid operation"<<endl;
         return 0;
     }
     
     cout << "\nSuitable temp !, set Temp to 24 degree celsius?\nYES or NO: ";
-    cin>>ans3;
+    cin >> ans3;
     
     if(ans3== accept)
         cout<<"CONTINUE TO OPERATE" << endl;
@@ -53,13 +53,13 @@ main ()
         cout<<"CONTINUE TO OPERATE" << endl;
     
     else
-	{
+    {
         cout<<"Invalid operation"<<endl;
         return 0;
     }
 
     cout << "\nSwing airflow to cool down all angle\nYES or NO: ";
-    cin>>ans4;
+    cin >> ans4;
     
     if(ans4== accept)
         cout<<"CONTINUE TO OPERATE" << endl;
@@ -68,7 +68,7 @@ main ()
         cout<<"CONTINUE TO OPERATE" << endl;
     
     else
-	{
+    {
         cout<<"Invalid operation"<<endl;
         return 0;
     }
